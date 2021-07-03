@@ -1,0 +1,28 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+section {
+  display: flex;
+}
+.banner {
+  background-image: url(top-banner.png);
+  background-repeat: no-repeat;
+}
+.half-width {
+  padding-left: 5%;
+  width: 50%;
+}
+.half-width,
+img {
+  width: 80%;
+}
+a {
+  background-image: linear-gradient(to right, orange, tomato);
+  padding: 10px 40px;
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
